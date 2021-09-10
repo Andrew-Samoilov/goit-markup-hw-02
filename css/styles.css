@@ -1,3 +1,69 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-color: #757575;
+  --accent: #2196f3;
+  --background-color: #2f303a;
+}
 body {
-  background-color: tomato;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* темный цвет в макете #212121 */
+/* обычный цвет #757575; */
+/*# акцент #2196F3 */
+
+/* навигация */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--accent);
+}
+
+/* контакты в шапке и футере */
+.site-contact .link {
+  color: var(--secondary-color);
+}
+.site-contact .link:focus,
+.site-contact .link:hover {
+  color: var(--accent);
+}
+
+/* секция */
+.section-title {
+  color: var(--primary-text-color);
+  text-align: center;
+}
+.section-text {
+  color: var(--secondary-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-color);
+}
+
+/* герой */
+.hero {
+  background-color: var(--background-color);
+  color: white;
+  /* padding: 200px 0 200px 0; */
+}
+.hero-title {
+  text-align: center;
+}
+.hero button {
+  background-color: var(--accent);
+  color: white;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
 }
