@@ -1,11 +1,16 @@
+/* темный цвет в макете #212121 
+обычный цвет #757575; 
+акцент #2196F3 
+белый - вайт */
 :root {
   --primary-text-color: #212121;
   --secondary-color: #757575;
   --accent: #2196f3;
   --background-color: #2f303a;
+  --white-color: white;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -13,19 +18,28 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
 
-/* темный цвет в макете #212121 */
-/* обычный цвет #757575; */
-/*# акцент #2196F3 */
-
 /* навигация */
-.site-nav .logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
 }
+.logo-header {
+  color: var(--primary-text-color);
+}
+.logo-footer {
+  color: var(--white-color);
+}
+
 .site-nav .link {
   color: var(--primary-text-color);
 }
@@ -52,6 +66,11 @@ button {
   text-align: center;
   font-weight: bold;
 }
+
+.section-subtitle {
+  text-transform: uppercase;
+}
+
 .section-text {
   color: var(--secondary-color);
 }
@@ -64,7 +83,7 @@ button {
 /* герой */
 .hero {
   background-color: var(--background-color);
-  color: white;
+  color: var(--white-color);
   /* padding: 200px 0 200px 0; */
 }
 .hero-title {
@@ -72,7 +91,7 @@ button {
 }
 .hero button {
   background-color: var(--accent);
-  color: white;
+  color: var(--white-color);
   padding: 10px 32px;
   font-size: 16px;
   font-weight: bold;
@@ -82,13 +101,13 @@ button {
 
 /* кнопки в фильтре */
 .button {
-  background-color: #f5f4fa;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   cursor: pointer;
 }
 .button-active {
   background-color: var(--accent);
-  color: white;
+  color: var(--white-color);
 }
 
 .filter .button:focus,
