@@ -7,6 +7,7 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -18,7 +19,11 @@ body {
 /*# акцент #2196F3 */
 
 /* навигация */
-` .site-nav .link {
+.site-nav .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.site-nav .link {
   color: var(--primary-text-color);
 }
 .site-nav .link:focus,
