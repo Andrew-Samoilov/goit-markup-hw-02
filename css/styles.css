@@ -47,6 +47,7 @@ body {
 .section-title {
   color: var(--primary-text-color);
   text-align: center;
+  font-weight: bold;
 }
 .section-text {
   color: var(--secondary-color);
