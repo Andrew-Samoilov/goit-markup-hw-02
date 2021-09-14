@@ -66,15 +66,16 @@ a {
   text-align: center;
   font-weight: bold;
 }
-
 .section-subtitle {
   text-transform: uppercase;
 }
-
 .section-text {
   color: var(--secondary-color);
 }
-
+/* секція команда */
+.team-senter {
+  text-align: center;
+}
 /* footer */
 .footer {
   background-color: var(--background-color);
@@ -88,6 +89,7 @@ a {
 }
 .hero-title {
   text-align: center;
+  text-transform: uppercase;
 }
 .hero button {
   background-color: var(--accent);
