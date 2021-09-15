@@ -80,10 +80,23 @@ a {
 }
 .section-text {
   color: var(--secondary-color);
+  font-style: normal;
+  font-weight: normal;
 }
 /* секція команда */
-.team-senter {
+.team-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-role {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* footer */
 .footer {
