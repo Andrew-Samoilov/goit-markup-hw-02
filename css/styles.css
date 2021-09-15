@@ -17,6 +17,7 @@ body {
 button {
   font-family: 'Roboto', sans-serif;
   border: none;
+  padding: 6px 22px;
 }
 address {
   font-style: normal;
@@ -128,6 +129,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  padding: 6px 32px;
 }
 
 /* кнопки в фильтре */
