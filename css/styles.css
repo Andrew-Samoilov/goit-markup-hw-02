@@ -36,7 +36,7 @@ a {
   color: var(--accent);
   text-decoration: none;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-header {
@@ -69,13 +69,13 @@ a {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.42;
   letter-spacing: 0.03em;
 }
 .section-subtitle {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -89,13 +89,13 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-role {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -124,7 +124,7 @@ a {
   padding: 10px 32px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
