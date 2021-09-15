@@ -7,7 +7,7 @@
   --secondary-color: #757575;
   --accent: #2196f3;
   --background-color: #2f303a;
-  --white-color: white;
+  --white-color: #ffffff;
 }
 body {
   background-color: var(--white-color);
@@ -16,12 +16,15 @@ body {
 }
 button {
   font-family: 'Roboto', sans-serif;
+  border: none;
 }
 
+address {
+  font-style: normal;
+}
 a {
   text-decoration: none;
 }
-
 .list {
   list-style: none;
 }
@@ -32,6 +35,9 @@ a {
   font-weight: 700;
   color: var(--accent);
   text-decoration: none;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .logo-header {
   color: var(--primary-text-color);
@@ -43,11 +49,12 @@ a {
 .site-nav .link {
   color: var(--primary-text-color);
 }
+
 .site-nav .link:focus,
-.site-nav .link:hover {
-  color: var(--accent);
-}
-.site-nav .link.current {
+.site-nav .link:hover,
+.site-nav .link.current,
+.site-contact .link:focus,
+.site-contact .link:hover {
   color: var(--accent);
 }
 
@@ -55,18 +62,21 @@ a {
 .site-contact .link {
   color: var(--secondary-color);
 }
-.site-contact .link:focus,
-.site-contact .link:hover {
-  color: var(--accent);
-}
 
 /* секция */
 .section-title {
   color: var(--primary-text-color);
   text-align: center;
   font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 .section-subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .section-text {
@@ -85,19 +95,26 @@ a {
 .hero {
   background-color: var(--background-color);
   color: var(--white-color);
-  /* padding: 200px 0 200px 0; */
 }
 .hero-title {
   text-align: center;
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero button {
   background-color: var(--accent);
   color: var(--white-color);
   padding: 10px 32px;
-  font-size: 16px;
   font-weight: bold;
-  display: inline-block;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
@@ -115,5 +132,6 @@ a {
 .filter .button:focus,
 .filter .button:active,
 .filter .button:hover {
-  color: var(--accent);
+  color: var(--white-color);
+  background-color: var(--accent);
 }
