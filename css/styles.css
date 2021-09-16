@@ -11,8 +11,12 @@
 }
 body {
   background-color: var(--white-color);
-  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
 button {
   font-family: 'Roboto', sans-serif;
@@ -48,6 +52,11 @@ a {
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:focus,
@@ -61,15 +70,20 @@ a {
 /* контакты в шапке и футере */
 .site-contact .link {
   color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
 }
 
 /* секция */
 .section-title {
   color: var(--primary-text-color);
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.42;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .section-subtitle {
@@ -78,7 +92,9 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-text-color);
 }
+
 .section-text {
   color: var(--secondary-color);
   font-style: normal;
@@ -92,6 +108,7 @@ a {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .team-role {
   font-size: 16px;
@@ -114,7 +131,7 @@ a {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -122,7 +139,7 @@ a {
   background-color: var(--accent);
   color: var(--white-color);
   padding: 10px 32px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   align-items: center;
@@ -137,6 +154,12 @@ a {
   background-color: var(--white-color);
   color: var(--primary-text-color);
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-active {
   background-color: var(--accent);
@@ -148,4 +171,21 @@ a {
 .filter .button:hover {
   color: var(--white-color);
   background-color: var(--accent);
+}
+/* секція портфоліо */
+.portfolio-work {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.portfolio-type {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
